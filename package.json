@@ -2,14 +2,17 @@
   "name": "basic-informational-site",
   "version": "1.0.0",
   "description": "A simple Node.js website with some basic informational pages.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index",
+    "start": "node app",
+    "dev": "nodemon app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Stanisław Olejniczak <0stanislawolejniczak0@gmail.com> (https://github.com/McStanley)",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
   "devDependencies": {
     "nodemon": "^3.0.1"
   }
